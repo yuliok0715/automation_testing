@@ -29,7 +29,6 @@ public class main_rozetka {
         Assert.assertTrue(min_price == price_to_set);
         List<Integer> prices = result.prices();
         for (int price: prices){
-            //System.out.println(price);
             Assert.assertTrue(price >= min_price);
         }
     }

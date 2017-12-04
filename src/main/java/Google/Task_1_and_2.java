@@ -10,14 +10,12 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import java.awt.*;
-import java.awt.event.KeyEvent;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.List;
-import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 @RunWith(value = Parameterized.class)
@@ -26,23 +24,10 @@ public class Task_1_and_2 {
     private final static String url = "https://www.google.com.ua";
     private String search;
     private String key;
-    private final static String key_not = "colgate";
 
     public Task_1_and_2(String key, String search) {
         this.key = key;
         this.search = search;
-    }
-
-    private static void scale(int a) throws AWTException {
-        Robot r = new Robot();
-        for (int i = 0; i <= 10; i++) {
-            r.keyPress(KeyEvent.VK_CONTROL);
-            r.delay(50);
-            r.mouseWheel(a);
-            r.delay(50);
-            r.keyRelease(KeyEvent.VK_CONTROL);
-            r.delay(100);
-        }
     }
 
     @BeforeClass
@@ -56,7 +41,7 @@ public class Task_1_and_2 {
 
 
     @Test
-    public void test_contains() throws AWTException {
+    public void test_contains(){
         driver.get(url);
         int page_number = 1;
         SearchPage result = new SearchPage(driver);
@@ -90,7 +75,7 @@ public class Task_1_and_2 {
 
     @Parameterized.Parameters
     public static Collection<Object[]> data() {
-        Object[][] data = new Object[][]{{"Garne", "свитер"}, {"Musthave", "свитер"}};
+        Object[][] data = new Object[][]{{"Garne", "свитер"}, {"Vandastyle", "свитер"}};
         return Arrays.asList(data);
     }
 }
