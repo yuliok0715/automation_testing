@@ -1,15 +1,18 @@
 package Google;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 class SearchPage {
-    private WebDriver driver;
-    SearchPage(WebDriver driver){
+    private ChromeDriverEx driver;
+    SearchPage(ChromeDriverEx driver){
         PageFactory.initElements(driver, this);
         this.driver = driver;
     }
@@ -42,5 +45,14 @@ class SearchPage {
             catch (NoSuchElementException e){
                 return null;
             }
+    }
+
+    void get_screenshot(String path) throws Exception {
+        File screenshot = driver.getFullScreenshotAs(OutputType.FILE);
+        try {
+            FileUtils.copyFile(screenshot, new File(path));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

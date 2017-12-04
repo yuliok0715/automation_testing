@@ -1,8 +1,12 @@
 package Rozetka;
 
-import org.junit.*;
+import org.junit.AfterClass;
+import org.junit.Assert;
+import org.junit.BeforeClass;
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -24,10 +28,12 @@ public class main_rozetka {
     public void check_min_price(){
         driver.get(url);
         FictionBook result = new FictionBook(driver);
-        result.set_min_price(price_to_set).submit_filter_price();
+        result.set_min_price(price_to_set);
+        result.submit_filter_price();
         int min_price = result.get_min_price();
         Assert.assertTrue(min_price == price_to_set);
         List<Integer> prices = result.prices();
+        System.out.println(prices);
         for (int price: prices){
             Assert.assertTrue(price >= min_price);
         }
