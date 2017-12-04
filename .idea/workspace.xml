@@ -2,6 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f080201-a206-478e-924b-a6451d3ca065" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/geckodriver" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Google/ChromeDriverEx.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/Google/Task_1_2_3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_15.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_17.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_18.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_19.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_20.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_21.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_22.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_23.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_24.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_25.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_26.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_27.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_28.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_29.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_30.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Colgate_9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Garne_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_свитер_Vandastyle_10.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_4.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_codeborne_phantomjsdriver_1_4_0.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" />
@@ -12,6 +47,8 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_client_9_4_5_v20170502.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_4_5_v20170502.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_5_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Google/ChromeDriverEx.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task_1_2_result.txt" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_5_7_Final.xml" afterPath="" />
@@ -162,12 +199,12 @@
       <file leaf-file-name="Task_1_2_3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Google/Task_1_2_3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="65" column="103" lean-forward="false" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
+            <state relative-caret-position="405">
+              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2660#2661#0" expanded="true" />
-                <element signature="e#2689#2690#0" expanded="true" />
+                <element signature="e#2681#2682#0" expanded="true" />
+                <element signature="e#2710#2711#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -582,7 +619,7 @@
       <workItem from="1511710947504" duration="9098000" />
       <workItem from="1511771782060" duration="908000" />
       <workItem from="1512373953098" duration="5568000" />
-      <workItem from="1512395410695" duration="12789000" />
+      <workItem from="1512395410695" duration="12850000" />
     </task>
     <servers />
   </component>
@@ -619,7 +656,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48986000" />
+    <option name="totallyTimeSpent" value="49047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="80" y="-11" width="1841" height="1092" extended-state="6" />
@@ -730,8 +767,8 @@
           <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
-            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -797,8 +834,8 @@
           <caret line="68" column="21" lean-forward="false" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
-            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -839,8 +876,8 @@
           <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
-            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,8 +926,8 @@
           <caret line="34" column="40" lean-forward="false" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
-            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1087,12 +1124,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Google/Task_1_2_3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="65" column="103" lean-forward="false" selection-start-line="65" selection-start-column="103" selection-end-line="65" selection-end-column="103" />
+        <state relative-caret-position="405">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2660#2661#0" expanded="true" />
-            <element signature="e#2689#2690#0" expanded="true" />
+            <element signature="e#2681#2682#0" expanded="true" />
+            <element signature="e#2710#2711#0" expanded="true" />
           </folding>
         </state>
       </provider>

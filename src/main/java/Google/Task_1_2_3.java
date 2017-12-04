@@ -64,6 +64,7 @@ public class Task_1_2_3 {
                         flag = true;
                         write_results("task_1_2_result.txt", page_number,i+1, contains);}
                     result.get_screenshot(String.format("task_%s_%s_%d.png",search, key, page_number));
+                    
                 }
             }
             result = result.next_page();
